@@ -1,0 +1,98 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 350px;
+      min-height: 350px;
+      background: #fff;
+      margin: 0 20px;
+
+ }
+ body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #111;
+
+ }
+ .title{
+  position: fixed;
+  top: 20px;
+  left: 500px;
+  font-size: 50px;
+  color: white;
+  text-shadow: 5px -6px 5px #f7b531;
+ }
+ .testTimonials{
+  position: relative;
+  max-width: 100%;
+  -webkit-box-reflect: below 1px linear-gradent(transparent 70%,
+    #0009);
+ }
+
+ .swiper-3d .swiper-slide-shadow-left,
+ .swiper-3d .swiper-slide-shadow-right
+  {
+  background-image: none;
+}
+.testTimonials .card{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  background: #333;
+  overflow: hidden;
+  text-align: center;
+  padding: 60px 40px;
+}
+.testTimonials .card .layer{
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#23e7fc , #fa148f);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.testTimonials .card:hover .layer{
+  top: 0;
+}
+
+.testTimonials .card .content{
+  z-index: 2;
+  position: relative;
+}
+
+.testTimonials .card .content p{
+  font-size: 28px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+.testTimonials .card .content .imgKAV{
+  width: 100%;
+  height: 100%;
+  margin: auto 10px; 
+  border-radius: 47%;
+  overflow: hidden;
+  border: 5px solid #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 2);
+}
+.testTimonials .card .content h2{
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+}
+
+.testTimonials .card .content span{
+  font-size: 18px;
+  color: white;
+  transition: 0.5s;
+}

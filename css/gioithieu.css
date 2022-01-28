@@ -1,0 +1,191 @@
+/*tran chu*/
+#index{
+	padding: 200px;
+	background-image: url(https://i.pinimg.com/originals/48/8c/28/488c2816011b6bbc80641b7a571a3d7f.gif);
+	background-size: 100%;
+	color: #28fcf9;
+	/*text-align: center;*/
+	letter-spacing: 5px;/*khoang cach cac chu*/
+	text-shadow: 1px 2px 4px ;
+	font-size: 50px;
+	font-variant: small-caps;/*viet hoa chu*/
+	text-align: center;
+}
+*{
+	margin: 0;
+}
+#background_menu1{
+	width: 75px;
+	height: 82px;
+}
+#cam_ket{
+	padding: 30px 0 ;
+	text-align: center;
+	color: beige;
+	font-size: 30px;
+	font-weight: 900;
+
+}
+#menu_side{
+	/*background-color: #243e47;*/
+	overflow: hidden;
+	position: fixed;
+}
+#background_menu{
+	width: 100%;
+	height: 82px;
+	position: fixed;
+	border-radius: 22px;
+	background-image: url(https://s3.amazonaws.com/image.blingee.com/images14/content/output/2007/11/13/288942814_3ca00f63.gif?4);
+	top: 2px;
+}
+div > a:hover{
+	/*background-color: #04d112;*/
+	transition: 0.4s;
+	
+	color: red;
+	text-decoration: underline;
+	/*transition-delay: 0.05s;*/
+	font-size: 13px;
+	margin-right: 31px;
+
+}
+.float_left{
+	float: left;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #f5f5f5;
+	font-weight: 900;
+	padding: 22px;
+	display: block;
+	float: left;
+	text-shadow: 5px -3px 5px #f716d2;
+	
+}
+.float_right{
+		float: right;
+		text-decoration: none;
+		font-size: 20px;
+		font-family: sans-serif;
+		color: #f5f5f5;
+		font-weight: 900;
+		padding: 22px 22px 22px 22px;
+		display: block;
+		text-shadow: 5px -3px 5px #f716d2;
+		padding-left: 600px;
+
+}
+#createSpace{
+	width: 75px;
+	height: 82px;
+}
+#top_mon_an{
+	padding: 20px;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+#container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.course_item{
+	/*width: 33%;*/
+	/*float: left;*/
+	text-align: center;
+	flex: 33%;
+	padding: 0px 0px 15px 0px;
+
+}
+.course_img{
+	width: 80%;
+	border-radius: 18px;/* bo goc cho hinh*/
+}
+.course_disc{
+	padding: 10px;
+	font-size: 20px;
+	color: #0a594b;
+}
+.course_title{
+	font-size: 30px;
+	color: #4800ff;
+}
+.course_disc:hover{
+	color: #181a19;
+	font-weight: 900;
+}
+#footer1{
+	padding: 50px 0;
+	background-color: #000000;
+	font-weight: bold;
+	color: #f5f0f0;
+	text-align: center;
+	background: -webkit-linear-gradient(150deg,#fc0398 20%,#0ef046 70%);
+	background: linear-gradient(150deg,#fc03ad 20%,#a903fc 30%);
+}
+
+
+/*giao dien tren diem thoai*/
+@media(max-width: 750px){
+	.course_item{
+		flex: 50%;
+	}
+	.course_item3{
+		flex: 50%;
+	}
+	.course_item2{
+		flex: 50%;
+	}
+	.price1{
+		text-decoration: line-through;
+	}
+	/*traang tin tuc*/
+	div.course_tintuc{
+		flex: 50%;
+	}
+	.item_SP{
+	flex: %;
+	text-align: center;
+	}
+	.float_right{
+		padding-left: 500px;
+	}
+}
+@media(max-width: 450px){
+	.course_item{
+		flex: 50%;
+	}
+	.course_item3{
+		flex: 20%;
+	}
+
+	.sale_ok{
+	border-radius: 18px;
+	/*flex: 30%;*/
+	width: 150px;
+	}
+	.course_item2{
+		flex: 100%;
+	}
+	.price1{
+		text-decoration: line-through;
+	}
+
+	#index{
+		padding: 80px 80px 80px 40px;
+	}
+	.item_SP{
+	flex: 100%;
+	text-align: center}
+	.float_right{
+		padding-left: 20px;
+	}
+	
+}
+@media(max-width: 1500px){
+	.float_right{
+		padding-left: 200px;
+	}
+}
+

@@ -1,0 +1,117 @@
+
+*{
+	/*margin: 0;
+	padding: 0;*/
+	/*background-color: red;*/
+}
+
+/*thanh me nu ---------------------------------------------------------*/
+#menu_side{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+div > a{
+	font-size: 40px;
+	color: #d0d9db;
+	font-weight: bold;
+	padding: 20px;
+	display: block;
+	text-align: center;
+	color: #6fff00;
+}
+div > a:hover{
+	/*background-color: #04d112;*/
+	transition: 0.4s;
+	
+	color: red;
+	text-decoration: underline;
+	transition-delay: 0.05s;
+	font-size: 30px;
+}
+.float_left{
+	flex: 33%;
+	float: center;
+	text-decoration: none;
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+
+	/*background-image: url(https://wallpapercave.com/wp/wp2757880.gif);*/
+	background-image: url(https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif);
+	background-position: center;/*cho anh căn giữa*/
+	/*background-size: cover;/*ảnh tự trải ra*/*/
+	padding-left: 5%;
+	padding-right: 5%;
+	/*box-sizing: border-box;định cỡ của cái chai về tổng chiều cao , đường viền
+	position: relative;/*làm cho phần tử có vị trí tương đối*/
+}
+#container{
+	display: flex;
+	flex: wrap;
+	padding-right	: 15px;
+	/*margin-left: 30px;*/
+	clear: both;
+}
+.course_item{
+	flex: 50%;
+}
+.course_img{
+	width: 80%;
+}
+article{
+	width: 50%;
+	float: left;
+}
+aside{
+	width: 49%;
+	float:right;
+}
+/*gioi thieu*/
+#container2{
+	/*width: 1200px;*/
+	clear: both;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.course2_bocuc{
+	flex: 100%;
+	text-align: center;
+}
+.course2_disc {
+	width: 99%;
+
+}
+
+#edit_pading1{
+	padding-right: 50px;
+}
+#edit_pading2{
+	padding-right: 269px;
+}
+#edit_pading3{
+	padding-right: 310px;
+}
+div p{
+	color: red;
+	font-size: 50px;
+	/*float: right;*/
+}
+.edit_font{
+	text-shadow: 5px -6px 5px #6fff00;
+	font-weight: 900;
+}
+#edit_asm1{
+	color: red;
+	text-align: center;
+	font-weight: 900;
+	padding-bottom	: 150px;
+	font-size: 	150px;
+	padding-right: 	50px;
+	margin-top:50px ;
+	color: #6fff00;
+	text-shadow: 	8px -10px 8px #ff007b;
+}

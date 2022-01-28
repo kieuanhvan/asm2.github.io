@@ -1,0 +1,111 @@
+/*thanh me nu*/
+div > a{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #0000ed;
+	font-weight: bold;
+	padding: 22px;
+	display: block;
+	float: left;
+	text-shadow: 5px -3px 5px #f716d2;
+}
+div > a:hover{
+	color: red;
+	text-decoration: underline;
+	transition-delay: 0.05s;
+	font-size: 10px;
+	transition: 0.4s;
+}
+.float_left{
+	float: left;
+	text-decoration: none;
+
+}
+.float_right{
+	float: right;
+	text-decoration: none;
+
+}
+#menu_side{
+	/*background-color: #243e47;*/
+	overflow: hidden;
+	/*position: fixed;lam cho thanh menu khong bi troi theo bai viet*/
+
+}
+
+
+
+*{
+	margin: 0;
+}
+
+.container{
+	width: 1400px;
+	margin: auto;
+	font-size: 28px;
+}
+
+header{
+	height: 500px; 
+	/*background:url(https://images.squarespace-cdn.com/content/v1/5ee28afd65e8c86582353ee8/1593523894620-VHB2TRJIJ4754JINC45T/BE-MINDFUL-WEB.gif) no-repeat 5px 13px;*/
+	/*background:url(http://www.wokitokee.com/assets/head_about.jpg) no-repeat ;*/
+	background:url(	https://magenest.com/wp-content/uploads/2021/11/thiet-ke-website-nha-hang-mau-website-magento.jpg
+) no-repeat ;
+	background-size: 100% 100%;
+}
+.container > main > article{
+	width: 100%; min-height: 500px; float: center;
+	background-color: #ebf2f7;
+	/*padding-left: 20px;*/
+}
+/*phần video*/
+
+/*#video_show{
+	width: 100%; min-height: 500px;
+	width: 1000px;
+	height: 200px;
+	background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm281-adj-065-l.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=bf4fd7f1eaebc53a448ea3a423cf7f2f) ;
+	background-size: 1000px 1000px;
+
+}*/
+#video{
+	text-align: center;
+	/*width: 500px;*/
+	background-image: url(https://www.paylessmarkets.com/img/ui/backgrounds/banana-leaf.jpg);
+}
+.container > footer{
+	height: 80px;
+	clear: both;
+	/*border-top: 9px double red;*/
+	text-align: center;
+	margin: 0;
+	padding: 45px 10px 45px 10px;
+	/*background-color: black;*/background-color: #E41980;
+	background: -webkit-linear-gradient(140deg,#E41980 10%,#67146E 60%);
+	background: linear-gradient(140deg,#E41980 10%,#67146E 70%);
+	 /*padding: 28px 0; */
+    width: 100%;
+	color: white;
+	background-repeat: no-repeat;
+}
+#footer{
+	padding-top: 25px;
+	font-size: 30px;
+	font-weight: 900;
+}
+.icons{
+	padding: 20px;
+	float: right;
+	color: red;
+}
+/*hai anh cuoi*/
+.float_left1{
+	float: left;
+}
+.float_right1{
+	float: right;
+}
+/**/
+body{
+	background-color: #d5f7f1;
+}
